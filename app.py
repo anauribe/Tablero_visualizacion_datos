@@ -1,6 +1,6 @@
 """
 Tablero interactivo — Desarrollo mundial (dataset Gapminder)
-Unidad 3 · Actividad de tablero con Streamlit
+Unidad 3 · 
 
 Lógica de la app (reactividad):
 1. Se cargan los datos UNA sola vez (con cache) al iniciar.
@@ -56,7 +56,7 @@ continentes_disponibles = sorted(df["continent"].unique().tolist())
 # ----------------------------------------------------------------------
 # 2. ENCABEZADO
 # ----------------------------------------------------------------------
-st.title("🌍 Desarrollo mundial: esperanza de vida, PIB e población")
+st.title("🌍 Desarrollo mundial: esperanza de vida, PIB y población")
 st.caption(
     "Fuente: Gapminder (Banco Mundial / Naciones Unidas), integrado en "
     "Plotly Express · Datos reales, 1952–2007"
